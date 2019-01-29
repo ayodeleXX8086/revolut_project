@@ -32,6 +32,7 @@ This applications performs several operations
 #Transfer transaction details
 
 ```
+        Post operating
         {url}:9000/revolut/{source_account_id}/transfer
         {
         "sourceAccountId":"8c897351-4572-405e-ba2f-bae2856b34e3",
