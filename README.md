@@ -9,11 +9,12 @@ This applications performs several operations
  * Return debit transfer detail that is either Success or Failed
 
 # Resources and payloads
-  #Get Account
+
+#Get Account
     ```
        {url}/9000/revolut/8c897351-4572-405e-ba2f-bae2856b34e3
     ```
-  #Save account
+#Save account
     ```
         {url}/9000/revolut
         {
@@ -21,11 +22,11 @@ This applications performs several operations
         "balance"	:"23000.5"
         }
     ```
-  #Get account transfer details
+#Get account transfer details
     ```
        {url}:9000/revolut/{account_id}/transfer
     ```
-  #Transfer transaction details
+#Transfer transaction details
     ```
         {url}:9000/revolut/{source_account_id}/transfer
         {
