@@ -25,12 +25,10 @@ This applications performs several operations
         }
 ```
 #Get account transfer details
-
 ```
        {url}:9000/revolut/{account_id}/transfer
 ```
 #Transfer transaction details
-
 ```
         Post operating
         {url}:9000/revolut/{source_account_id}/transfer
@@ -42,7 +40,10 @@ This applications performs several operations
 ```
 
 #Build
-
    * Dropwizard
    * Maven
    * Java 1.8
+
+#How to run the program
+java filename.jar server config.yml
+This argument needs to passed to the when running "server config.yml"
