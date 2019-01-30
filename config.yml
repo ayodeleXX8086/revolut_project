@@ -16,4 +16,4 @@ database:
   properties:
     hibernate.dialect: org.hibernate.dialect.HSQLDialect
     hibernate.show_sql: true
-    hibernate.hbm2ddl.auto: validate # validates schema when service is started
+    hibernate.hbm2ddl.auto: auto # validates schema when service is started
