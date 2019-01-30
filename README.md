@@ -10,12 +10,12 @@ This applications performs several operations
 
 # Resources and payloads
 
-#Get Account
+##Get Account
 
 ```
        {url}/9000/revolut/8c897351-4572-405e-ba2f-bae2856b34e3
 ```
-#Save account
+##Save account
 
 ```
         {url}/9000/revolut
@@ -28,7 +28,7 @@ This applications performs several operations
 ```
        {url}:9000/revolut/{account_id}/transfer
 ```
-#Transfer transaction details
+##Transfer transaction details
 ```
         Post operating
         {url}:9000/revolut/{source_account_id}/transfer
@@ -39,11 +39,12 @@ This applications performs several operations
         }
 ```
 
-#Build
+##Build
    * Dropwizard
    * Maven
    * Java 1.8
 
-#How to run the program
-java filename.jar server config.yml
-This argument needs to passed to the when running "server config.yml"
+##How to run the program
+
+*java filename.jar server config.yml
+*This argument needs to passed to the when running "server config.yml"
